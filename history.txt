@@ -1,0 +1,500 @@
+   65  git checkout master
+   66  ls
+   67  git log
+   68  git checkout milkshake-flavour
+   69  git log
+   70  ls
+   71  git checkout history 
+   72  ls
+   73  git log
+   74  git checkout master
+   75  git status
+   76  git commit -m "rewrote README.md"
+   77  git status
+   78  git add README.md
+   79  git commit -m "rewrote README.md"
+   80  git checkout history
+   81  git log
+   82  git checkout master
+   83  git log
+   84  git checkout history
+   85  cat README.md
+   86  pwd
+   87  ls
+   88  cd
+   89  cd ~
+   90  pwd
+   91  cd Desktop
+   92  cd git-basic-exercises
+   93  pwd
+   94  git init
+   95  ls 
+   96  ls -a
+   97  git status
+   98  touch README.md
+   99  ls -a
+  100  git status
+  101  git log
+  102  git add README.md
+  103  git status
+  104  git rm --cached README.md
+  105  git status
+  106  git add .
+  107  git status
+  108  git commit -m "initial commit"
+  109  git log
+  110  nano README.md
+  111  cat README.md
+  112  git status
+  113  git add .
+  114  git status
+  115  git commit -m "second commit"
+  116  git log
+  117  nano README.md
+  118  cat README.md
+  119  git log
+  120  git status
+  121  git commit -m "third commit"
+  122  git add .
+  123  git status
+  124  cat README.md
+  125  git commit -m "third commit"
+  126  git log
+  127  git checkout  b8431633599c11e5c9fa9855ac8d973afd822781
+  128  cat README.md
+  129  git checkout master
+  130  cat README.md
+  131  git branch
+  132   git branch milkshake-flavours
+  133  git branch
+  134  git checkout milkshake-flavours
+  135  nano milkshakes.md
+  136  ls -a
+  137  git status
+  138  git add.
+  139  git add .
+  140  git status
+  141  git commit -m "added initial flavours"
+  142  git log
+  143  git checkout master
+  144  git branch history
+  145  git log
+  146  history > history.txt
+  147  ls -a
+  148  nano README.md 
+  149  git status
+  150  git add history.txt
+  151  git status
+  152  pwd
+  153  cd Desktop
+  154  cd git-basic-exercises
+  155  git init
+  156  git status
+  157  touch README.md
+  158  ls -a
+  159  git status
+  160  git log
+  161  git add
+  162  git add .
+  163  git status
+  164  git rm --cached README.md
+  165  git status
+  166  git add.
+  167  git add .
+  168  git status
+  169  git commit -m "initial commit"
+  170  nano README.md
+  171  git status
+  172  cat README.md
+  173  git add .
+  174  git status
+  175  git commit -m "second commit"
+  176  git log
+  177  nano README.md
+  178  git status
+  179  git add .
+  180  git status
+  181  git commit -m "third commit"
+  182  git log
+  183   git checkout 8520ab6e48aa535ebf4c35893279f1a391a161d6
+  184   cat README.md
+  185  git checkout master
+  186  cat README.md
+  187  git branch 
+  188  git branch milkshake-flavours
+  189  git branch
+  190  git checkout milkshake-flavours
+  191  nano milkshakes.md
+  192  git status
+  193  git add .
+  194  git commit -m "added initial flavours"
+  195  git log
+  196  git checkout master
+  197  git branch history
+  198  git branch
+  199  git checkout history
+  200  git branch
+  201  git log
+  202  history > history.txt
+  203  git ls
+  204  ls
+  205  git checkout milkshake-flavours
+  206  git log
+  207  git checkout history
+  208  git status
+  209  git add .
+  210  git status
+  211  git commit -m"added history"
+  212  git log
+  213  nano README.md
+  214  git status
+  215  git add .
+  216  git commit -m "random README changes"
+  217  cat README.md
+  218  rm README.md
+  219  echo "booya" > README.md
+  220  git status
+  221  git add .
+  222  git status
+  223  git commit -m"rewrote README"
+  224  git log
+  225  git checkout master
+  226  git log
+  227  ls
+  228  git log
+  229  git checkout milkshake-flavours 
+  230  ls
+  231  git log
+  232  git checkout history
+  233  ls
+  234  git log
+  235  git checkout master
+  236  git merge milkshake-flavours
+  237  ls
+  238  git log
+  239  git checkout history
+  240  git log
+  241  git history 
+  242  git log
+  243  git checkout master
+  244  git merge history
+  245  git log
+  246  git remote add origin https://github.com/VukileMpofana/git-basic-exercises.git
+  247  git branch -M main
+  248  git push -u origin main
+  249  git chechouk history
+  250  git checkout history
+  251  git push --set-upstream origin history
+  252  git checkout milkshake-flavours
+  253  git push --set-upstream origin history
+  254  history
+  255  history
+  256   git push --set-upstream origin milkshake-flavours
+  257  cd ../
+  258  git clone https://github.com/Umuzi-org/tech-department.git
+  259   cd tech-deparment
+  260  ls
+  261  pwd
+  262  cd Desktop
+  263  cd
+  264  cd Desktop
+  265  cd tech-department
+  266  git branch
+  267  git log
+  268  git branch -a
+  269  git checkout project/git-basic-exercises
+  270  git remote -v
+  271  git remote
+  272  git branch project/git-basic-exercises
+  273  git branch
+  274  git checkout project/git-basic-exercises
+  275  git checkout master
+  276  git remote -v
+  277  git push --set-upstream origin project/git-basic-exercises
+  278  git remote -v
+  279  git checkout project/git-basic-exercises
+  280  git log
+  281  git checkout 9ac92a1d2c2840eb020ffaa0487ad0a72a9fd508
+  282   cat readme.md
+  283  git checkout project/git-basic-exercises
+  284  cd
+  285  cd Desktop
+  286  cd git-basic-exercises
+  287  git log
+  288  cd
+  289  pwd
+  290  mkdir this-this will-be-another-repo
+  291  pwd
+  292  cd
+  293  pwd
+  294  cd Desktop
+  295  cd this-will-be-another-repo
+  296  git init
+  297  touch README.md
+  298  cd
+  299  cd Desktop
+  300  cd git-basic-exercises
+  301  git checkout master
+  302  git checkout history
+  303  git log
+  304  git checkout master
+  305  git checkout origin
+  306  git checkout main
+  307  git status
+  308  git log
+  309  cd
+  310   cd this-will-be 
+  311  cd Desktop
+  312  cd this-will-be-another-repo
+  313  git status
+  314  git add .
+  315  git status
+  316  git commit -m"third repo commit"
+  317  git status
+  318  cd
+  319  cd Desktop
+  320  cd git-basic-exercises
+  321  git log
+  322  cd
+  323  cd Desktop
+  324  cd tech-department
+  325  git main
+  326  git checkout main
+  327  git checkout master
+  328  git log
+  329  cd 
+  330  cd Desktop
+  331  cd this-will-be-another-repo
+  332  git log
+  333  touch ignore-me.db
+  334  git status
+  335  cd 
+  336  cd Desktop
+  337  cd git-basic-exercises
+  338  touch ignore-me.db
+  339  git status
+  340  nano .gitignore
+  341  git status
+  342  mkdir large-directory-that-should-be-local-only
+  343  cd
+  344  cd Desktop
+  345  cd git-basic-exercises
+  346  cd large-directory-that-should-be-local-only
+  347  touch readme.md
+  348  nano readme.md
+  349  cd..
+  350  cd..
+  351  cd ..
+  352  git status
+  353  nano .gitignore
+  354  git status
+  355   git remote add origin https://github.com/VukileMpofana/git-basic-exercises.git
+  356   git branch -M main
+  357  git push origin master
+  358  git status
+  359  git remote add origin https://github.com/VukileMpofana/git-basic-exercises.git
+  360  git push -u origin master
+  361  git push -f
+  362  git push -u origin main
+  363  pwd
+  364  cd Desktop
+  365  mkdir dummy-gitignore-test
+  366  cd dummy-gitignore-test
+  367  touch readme.md
+  368  nano readme.me
+  369  ls
+  370  touch dummy.txt
+  371  touch sample.py
+  372  touch vuvu.exe
+  373  ls
+  374  git status
+  375  git init
+  376  git status
+  377  git rm readme.me
+  378  git readme --cached
+  379  git add readme.md
+  380  git add sample.py
+  381  git status
+  382  add dummy.txt
+  383  git add dummy txt
+  384  git add dummy.txt
+  385  git status
+  386  git add readme.me
+  387  git status
+  388  git status
+  389  git rm readme.me 
+  390  git rm -f readme.me
+  391  git status
+  392  git diff
+  393  git branch
+  394  git commit -m "commiting test files withouth exe file"
+  395  git log
+  396  git branch test branch 1
+  397  git branch
+  398  git branch test-branch1
+  399  git branch
+  400  git test-branch2 
+  401  git branch test-branch2
+  402  git branch
+  403  git checkout test-branch1
+  404  touch readme.md
+  405  git status
+  406  git add .
+  407  git status
+  408   git rm --cached vuvu.exe
+  409  ls
+  410  git status
+  411  nano readme.md
+  412  git status
+  413  git add readme.md
+  414  git status
+  415  git commit-m"modified readme file in test branch"
+  416  git commit -m "modified readme file in test branch"
+  417  ls
+  418  git checkout master
+  419  git checkout test-branch2
+  420  touch extrafile.txt
+  421  git status
+  422  git add extrafile.txt
+  423  git status
+  424  git commit -m "adding file so i can see how gitignore responds to tracked and untracked files"
+  425  git log
+  426  git checkout main
+  427  git checkout master
+  428  git status
+  429  git log
+  430  nano .gitignore
+  431  git status
+  432  nano .gitignore
+  433  git status
+  434  git add .
+  435  git status
+  436  git commit -m"adding git ignore and remove .txt files and .exe"
+  437  git log
+  438  git checkout master
+  439  git checkout test-branch1
+  440  git status
+  441  git add .
+  442  git commit"adding exe in test branch to see if it'll be removed in main"
+  443  git commit -m "adding exe to see if it'll be remove in main when merged"
+  444  git checkout master
+  445  git merge test-branch1
+  446  git status
+  447  git checkout test-branch2
+  448  ls
+  449  nano sample.py
+  450  nano extrafile.txt 
+  451  ls
+  452  git log
+  453  git status
+  454  git add .
+  455  git status
+  456  git commit -m "extra files for testing "
+  457  git checkout master
+  458  ls
+  459  nano sample.py
+  460  git merge test-branch2
+  461  git ls
+  462  ls
+  463  nano .gitignore
+  464  ls
+  465  git status
+  466  git add .
+  467  git commit -m"modifying gitignore file to sort out exe file"
+  468  nano sample.py
+  469  git remote add origin https://github.com/VukileMpofana/git-ignore-test.git
+  470  git branch -M main
+  471  git push -u origin main
+  472  git log
+  473  nano readme.md
+  474  git status
+  475  git add .
+  476  git status
+  477  git commit -m"made a change to readme file as a check"
+  478  git log
+  479  git push -u origin main
+  480  mkdir local-folder-for-storage
+  481  git status
+  482  pwd
+  483  cd desktop
+  484  cd Desktop
+  485  cd ../
+  486  cd Desktop
+  487  cd dummy-gitignore-test
+  488  cd local-folder-for-storage
+  489  touch vuvu.db
+  490  git status
+  491  cd ../
+  492  git status
+  493  nano .gitignore
+  494  git status
+  495  git status
+  496  git add .gitignore
+  497  git status
+  498  git commit -m "added folder into git ignore which means i updated gitignore hence why i had to add it and commit it again now i have to push it to remote repository"
+  499  git push -u origin main
+  500  exit
+  501  pwd
+  502  cd Desktop
+  503  cd git-basic-exercises
+  504  ls
+  505  git init
+  506  ls
+  507  lf -a
+  508  ls -a
+  509  git status
+  510  touch README.md
+  511  git ls -a
+  512  ls -a
+  513  git status
+  514   git log
+  515  git add .
+  516  git status
+  517  git rm -cached readme.md 
+  518  git rm --cached readme.md
+  519  git rm --cached README.md
+  520  git status
+  521  git add .
+  522  git status
+  523  git commit -m "initial commit"
+  524  git log
+  525  nano README.md
+  526  git status
+  527  cat README.md
+  528  git add README.md
+  529  git status
+  530  git commit -m "second commit(modifying read me file)"
+  531  git log
+  532  nano README.md
+  533  git status
+  534  git add .
+  535  git status
+  536  git commit -m "third commit"
+  537  git status
+  538  git log
+  539  git checkout 56769bcda714bc18dcb0693f66ab667698b37967
+  540  cat README.md
+  541  git checkout master
+  542  cat README.md
+  543  git branch
+  544  git branch milkshake-flavours
+  545  git branch
+  546  git checkout milkshake-falvours
+  547  git checkout milkshake-flavours
+  548  nano milkshakes.md
+  549  ls -a
+  550  ls
+  551  git checkout master
+  552  ls
+  553  git checkout milkshake-flavours
+  554  git status
+  555  git add .
+  556  git status
+  557  git commit -m "added initial flavours"
+  558  git log
+  559  git checkout master
+  560  git log
+  561  git branch history
+  562  git branch
+  563  git log
+  564  history > history.txt
